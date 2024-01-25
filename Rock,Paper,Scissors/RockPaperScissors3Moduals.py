@@ -17,9 +17,9 @@ def results(user_hand,comp_hand):
             result = "Lost"
 
     if user_hand == "s" or user_hand == "scissors":
-        if comp_hand == "Rock":
+        if comp_hand == "rock":
             result = "Lost"
-        elif comp_hand == "Paper":
+        elif comp_hand == "paper":
             result = "Won"
         else:
             result = "Tied"
